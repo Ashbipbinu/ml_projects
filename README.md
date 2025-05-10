@@ -1,6 +1,6 @@
 # Heart Disease Prediction using Logistic Regression
 
-## 🩺 Overview
+##  Overview
 
 This project uses a machine learning model to predict whether a person has heart disease based on various medical parameters. It is built with Python and trained on the UCI Heart Disease dataset using logistic regression.
 
