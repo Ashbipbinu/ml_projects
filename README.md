@@ -2,7 +2,7 @@
 
 ##  Overview
 
-This project uses a machine learning model to predict whether a person has heart disease based on various medical parameters. It is built with Python and trained on the UCI Heart Disease dataset using logistic regression.
+This project uses a machine learning model to predict whether a person has heart disease based on various medical parameters. It is built with Python and trained on the Kaggle Heart Disease Dataset using logistic regression.
 
 ##  Dataset
 
