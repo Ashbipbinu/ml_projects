@@ -35,7 +35,10 @@ cd ml_projects/Heart_Disease_Prediction
 ```
 
 ### 2. Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
 ### 3. Run the Notebook
 Open the notebook in Jupyter or Google Colab and run all cells:
@@ -43,8 +46,10 @@ Open the notebook in Jupyter or Google Colab and run all cells:
 ### 4. Run Predictions
 After training, you can use the pickled model:
 
+```bash
 model = pickle.load(open("model.pkl", "rb"))
 model.predict([[age, sex, cp, trestbps, chol, fbs, restecg, thalach, exang, oldpeak, slope, ca, thal]])
+```
 
 Note: Replace the input values with actual patient data.
 
