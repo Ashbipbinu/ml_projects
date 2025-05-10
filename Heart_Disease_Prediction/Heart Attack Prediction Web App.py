@@ -35,7 +35,7 @@ def main():
     
  
     # Title
-    st.title("A.I. Based Heart Attack Predictor")
+    st.title("A.I. Based Heart Disease Predictor")
     
     # Input Forms
     age = st.text_input('Age of the Patient')
@@ -77,7 +77,7 @@ def main():
             
         
             if result == 1:
-                st.error("This patient has a huge probability of having a haert attack")
+                st.error("This patient has a huge probability of having a haert disease")
             else:
                 st.success("This patient is healthy")
             
