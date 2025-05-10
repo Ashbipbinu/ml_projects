@@ -54,6 +54,8 @@ model.predict([[age, sex, cp, trestbps, chol, fbs, restecg, thalach, exang, oldp
 Note: Replace the input values with actual patient data.
 
 ### Model Performance
+```
 Model Used: Logistic Regression
 Accuracy: 87.7% on test data
+```
 
